@@ -1,3 +1,28 @@
-*.csv
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Spreadsheet exports
 *.xlsx
-.idea
+
+# Local Kaggle outputs: fine-tuned weights (about 1.4 GB per run, far above GitHub's
+# 100 MB file limit), raw export files, downloaded archives and executed-notebook copies.
+# Only the curated files in results/ are committed.
+kaggle_outputs/
+results[0-9]*/
+checkpoints/
+__results___files/
+__huggingface_repos__.json
+*.zip
+*.safetensors
+*.bin
+results/*.ipynb

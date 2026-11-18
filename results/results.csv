@@ -1,0 +1,5 @@
+model,split,BLEU-4 (CodeXGLUE),BLEU-4 (corpus),ROUGE-1,ROUGE-2,ROUGE-L
+PLBART,validation,17.78,5.47,37.1,13.49,33.93
+PLBART,test,17.17,4.99,37.48,12.48,34.28
+CodeT5,validation,18.48,6.21,38.69,14.58,35.56
+CodeT5,test,18.4,6.06,39.35,14.37,36.14
